@@ -1,0 +1,13 @@
+{
+  "name": "yarn-link-step-issue",
+  "version": "1.0.0",
+  "description": "Demonstrate issue when yarn attempts to link dependencies in a monorepo",
+  "main": "index.js",
+  "repository": "https://github.com/jakesidsmith/yarn-link-step-issue",
+  "author": "Jake 'Sid' Smith",
+  "license": "UNLICENSED",
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "yarn@3.2.0"
+}
